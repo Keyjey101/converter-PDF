@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload page</title>
+</head>
+<body>
+    <h1> Upload your .zip and download .pdf</h1>
+    <p>make sure that your have 'index.html' in your root directory, and your .zip is less than 2Gb</p>
+
+    <form action='/upload' method="POST" enctype="multipart/form-data">
+    <input type="file" name="file">
+    <button>CONVERT & DOWNLOAD</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,15 @@
+[2021-05-24T18:05:21.549] [INFO] convert-log - {
+  fileName: '3459af24-2618-4e07-8fac-cc5f9218ef40-test.zip',
+  timeToConvert: '1746.3408999992535ms',
+  usedMemory: '42.92 MB -> Resident Set Size - total memory allocated for the process execution'
+}
+[2021-05-24T18:05:29.889] [ERROR] convert-log - Error: net::ERR_FILE_NOT_FOUND at file://D:\Study\web development\testovoe\upload-jetsytle\output\originals\8192edd0-f6a5-4de0-b8ba-fb50d36a5be9-test no index.zip\index.html
+    at navigate (D:\Study\web development\testovoe\upload-jetsytle\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:115:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async FrameManager.navigateFrame (D:\Study\web development\testovoe\upload-jetsytle\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:90:21)
+    at async Frame.goto (D:\Study\web development\testovoe\upload-jetsytle\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:416:16)
+    at async Page.goto (D:\Study\web development\testovoe\upload-jetsytle\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:819:16)
+    at async exportToPDF (D:\Study\web development\testovoe\upload-jetsytle\index.js:78:3)
+    at async D:\Study\web development\testovoe\upload-jetsytle\index.js:132:5
+[2021-05-24T18:05:41.356] [ERROR] convert-log - bad file type
