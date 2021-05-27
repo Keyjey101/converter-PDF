@@ -1,15 +1,182 @@
-[2021-05-24T18:05:21.549] [INFO] convert-log - {
-  fileName: '3459af24-2618-4e07-8fac-cc5f9218ef40-test.zip',
-  timeToConvert: '1746.3408999992535ms',
-  usedMemory: '42.92 MB -> Resident Set Size - total memory allocated for the process execution'
+[2021-05-27T13:16:11.341] [ERROR] convert-log - MulterError: Unexpected field
+    at wrappedFileFilter (D:\Study\web development\testovoe\upload-jetsytle\node_modules\multer\index.js:40:19)
+    at Busboy.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\multer\lib\make-middleware.js:114:7)
+    at Busboy.emit (events.js:376:20)
+    at Busboy.emit (D:\Study\web development\testovoe\upload-jetsytle\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:376:20)
+    at HeaderParser.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:376:20)
+    at HeaderParser._finish (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\HeaderParser.js:40:12)
+    at SBMH.emit (events.js:376:20)
+    at SBMH._sbmh_feed (D:\Study\web development\testovoe\upload-jetsytle\node_modules\streamsearch\lib\sbmh.js:159:14)
+    at SBMH.push (D:\Study\web development\testovoe\upload-jetsytle\node_modules\streamsearch\lib\sbmh.js:56:14)
+    at HeaderParser.push (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\HeaderParser.js:46:19)
+    at Dicer._oninfo (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\Dicer.js:197:25)
+    at SBMH.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\Dicer.js:127:10) {
+  code: 'LIMIT_UNEXPECTED_FILE',
+  field: 'upfile',
+  storageErrors: []
 }
-[2021-05-24T18:05:29.889] [ERROR] convert-log - Error: net::ERR_FILE_NOT_FOUND at file://D:\Study\web development\testovoe\upload-jetsytle\output\originals\8192edd0-f6a5-4de0-b8ba-fb50d36a5be9-test no index.zip\index.html
+[2021-05-27T13:18:26.579] [ERROR] convert-log - MulterError: Unexpected field
+    at wrappedFileFilter (D:\Study\web development\testovoe\upload-jetsytle\node_modules\multer\index.js:40:19)
+    at Busboy.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\multer\lib\make-middleware.js:114:7)
+    at Busboy.emit (events.js:376:20)
+    at Busboy.emit (D:\Study\web development\testovoe\upload-jetsytle\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:376:20)
+    at HeaderParser.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:376:20)
+    at HeaderParser._finish (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\HeaderParser.js:40:12)
+    at SBMH.emit (events.js:376:20)
+    at SBMH._sbmh_feed (D:\Study\web development\testovoe\upload-jetsytle\node_modules\streamsearch\lib\sbmh.js:159:14)
+    at SBMH.push (D:\Study\web development\testovoe\upload-jetsytle\node_modules\streamsearch\lib\sbmh.js:56:14)
+    at HeaderParser.push (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\HeaderParser.js:46:19)
+    at Dicer._oninfo (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\Dicer.js:197:25)
+    at SBMH.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\Dicer.js:127:10) {
+  code: 'LIMIT_UNEXPECTED_FILE',
+  field: 'upfile',
+  storageErrors: []
+}
+[2021-05-27T13:20:49.679] [ERROR] convert-log - MulterError: Unexpected field
+    at wrappedFileFilter (D:\Study\web development\testovoe\upload-jetsytle\node_modules\multer\index.js:40:19)
+    at Busboy.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\multer\lib\make-middleware.js:114:7)
+    at Busboy.emit (events.js:376:20)
+    at Busboy.emit (D:\Study\web development\testovoe\upload-jetsytle\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:376:20)
+    at HeaderParser.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:376:20)
+    at HeaderParser._finish (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\HeaderParser.js:40:12)
+    at SBMH.emit (events.js:376:20)
+    at SBMH._sbmh_feed (D:\Study\web development\testovoe\upload-jetsytle\node_modules\streamsearch\lib\sbmh.js:159:14)
+    at SBMH.push (D:\Study\web development\testovoe\upload-jetsytle\node_modules\streamsearch\lib\sbmh.js:56:14)
+    at HeaderParser.push (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\HeaderParser.js:46:19)
+    at Dicer._oninfo (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\Dicer.js:197:25)
+    at SBMH.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\Dicer.js:127:10) {
+  code: 'LIMIT_UNEXPECTED_FILE',
+  field: 'upfile',
+  storageErrors: []
+}
+[2021-05-27T13:20:51.475] [ERROR] convert-log - MulterError: Unexpected field
+    at wrappedFileFilter (D:\Study\web development\testovoe\upload-jetsytle\node_modules\multer\index.js:40:19)
+    at Busboy.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\multer\lib\make-middleware.js:114:7)
+    at Busboy.emit (events.js:376:20)
+    at Busboy.emit (D:\Study\web development\testovoe\upload-jetsytle\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:376:20)
+    at HeaderParser.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:376:20)
+    at HeaderParser._finish (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\HeaderParser.js:40:12)
+    at SBMH.emit (events.js:376:20)
+    at SBMH._sbmh_feed (D:\Study\web development\testovoe\upload-jetsytle\node_modules\streamsearch\lib\sbmh.js:159:14)
+    at SBMH.push (D:\Study\web development\testovoe\upload-jetsytle\node_modules\streamsearch\lib\sbmh.js:56:14)
+    at HeaderParser.push (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\HeaderParser.js:46:19)
+    at Dicer._oninfo (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\Dicer.js:197:25)
+    at SBMH.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\Dicer.js:127:10) {
+  code: 'LIMIT_UNEXPECTED_FILE',
+  field: 'upfile',
+  storageErrors: []
+}
+[2021-05-27T13:21:11.613] [ERROR] convert-log - MulterError: Unexpected field
+    at wrappedFileFilter (D:\Study\web development\testovoe\upload-jetsytle\node_modules\multer\index.js:40:19)
+    at Busboy.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\multer\lib\make-middleware.js:114:7)
+    at Busboy.emit (events.js:376:20)
+    at Busboy.emit (D:\Study\web development\testovoe\upload-jetsytle\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:376:20)
+    at HeaderParser.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:376:20)
+    at HeaderParser._finish (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\HeaderParser.js:40:12)
+    at SBMH.emit (events.js:376:20)
+    at SBMH._sbmh_feed (D:\Study\web development\testovoe\upload-jetsytle\node_modules\streamsearch\lib\sbmh.js:159:14)
+    at SBMH.push (D:\Study\web development\testovoe\upload-jetsytle\node_modules\streamsearch\lib\sbmh.js:56:14)
+    at HeaderParser.push (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\HeaderParser.js:46:19)
+    at Dicer._oninfo (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\Dicer.js:197:25)
+    at SBMH.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\Dicer.js:127:10) {
+  code: 'LIMIT_UNEXPECTED_FILE',
+  field: 'upfile',
+  storageErrors: []
+}
+[2021-05-27T13:21:30.208] [INFO] convert-log - {
+  fileName: '35fc4714-e76d-4a63-b67d-19a275471d1c-test.zip',
+  timeToConvert: '4070.011700004339ms',
+  usedMemory: '58.9 MB -> Resident Set Size - total memory allocated for the process execution'
+}
+[2021-05-27T13:23:30.812] [INFO] convert-log - {
+  fileName: '6ec66997-bf6d-42a2-9b75-81b3dddb8a03-test.zip',
+  timeToConvert: '1487.220799997449ms',
+  usedMemory: '61.29 MB -> Resident Set Size - total memory allocated for the process execution'
+}
+[2021-05-27T13:24:20.881] [INFO] convert-log - {
+  fileName: '4506039e-3478-476d-8a21-e4a3189341fb-test.zip',
+  timeToConvert: '1887.8332999944687ms',
+  usedMemory: '61.58 MB -> Resident Set Size - total memory allocated for the process execution'
+}
+[2021-05-27T13:24:40.220] [ERROR] convert-log - MulterError: Unexpected field
+    at wrappedFileFilter (D:\Study\web development\testovoe\upload-jetsytle\node_modules\multer\index.js:40:19)
+    at Busboy.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\multer\lib\make-middleware.js:114:7)
+    at Busboy.emit (events.js:376:20)
+    at Busboy.emit (D:\Study\web development\testovoe\upload-jetsytle\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:376:20)
+    at HeaderParser.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:376:20)
+    at HeaderParser._finish (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\HeaderParser.js:40:12)
+    at SBMH.emit (events.js:376:20)
+    at SBMH._sbmh_feed (D:\Study\web development\testovoe\upload-jetsytle\node_modules\streamsearch\lib\sbmh.js:159:14)
+    at SBMH.push (D:\Study\web development\testovoe\upload-jetsytle\node_modules\streamsearch\lib\sbmh.js:56:14)
+    at HeaderParser.push (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\HeaderParser.js:46:19)
+    at Dicer._oninfo (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\Dicer.js:197:25)
+    at SBMH.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\Dicer.js:127:10) {
+  code: 'LIMIT_UNEXPECTED_FILE',
+  field: 'upfile',
+  storageErrors: []
+}
+[2021-05-27T13:26:14.970] [ERROR] convert-log - MulterError: Unexpected field
+    at wrappedFileFilter (D:\Study\web development\testovoe\upload-jetsytle\node_modules\multer\index.js:40:19)
+    at Busboy.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\multer\lib\make-middleware.js:114:7)
+    at Busboy.emit (events.js:376:20)
+    at Busboy.emit (D:\Study\web development\testovoe\upload-jetsytle\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:376:20)
+    at HeaderParser.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:376:20)
+    at HeaderParser._finish (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\HeaderParser.js:40:12)
+    at SBMH.emit (events.js:376:20)
+    at SBMH._sbmh_feed (D:\Study\web development\testovoe\upload-jetsytle\node_modules\streamsearch\lib\sbmh.js:159:14)
+    at SBMH.push (D:\Study\web development\testovoe\upload-jetsytle\node_modules\streamsearch\lib\sbmh.js:56:14)
+    at HeaderParser.push (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\HeaderParser.js:46:19)
+    at Dicer._oninfo (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\Dicer.js:197:25)
+    at SBMH.<anonymous> (D:\Study\web development\testovoe\upload-jetsytle\node_modules\dicer\lib\Dicer.js:127:10) {
+  code: 'LIMIT_UNEXPECTED_FILE',
+  field: 'upfile',
+  storageErrors: []
+}
+[2021-05-27T13:31:02.531] [INFO] convert-log - {
+  fileName: 'c3425c0e-dfd4-4085-9af2-9fc2fb87735e-test.zip',
+  timeToConvert: '1340.3768000006676ms',
+  usedMemory: '61.21 MB -> Resident Set Size - total memory allocated for the process execution'
+}
+[2021-05-27T13:31:47.823] [INFO] convert-log - {
+  fileName: '88ec2886-8f7a-40d9-8320-2d0416b60814-test.zip',
+  timeToConvert: '1339.51819999516ms',
+  usedMemory: '61 MB -> Resident Set Size - total memory allocated for the process execution'
+}
+[2021-05-27T13:32:11.927] [ERROR] convert-log - Error: net::ERR_FILE_NOT_FOUND at file://D:\Study\web development\testovoe\upload-jetsytle\output\originals\5321479d-6937-408b-a431-f193e822bf9f-test no index.zip\index.html
     at navigate (D:\Study\web development\testovoe\upload-jetsytle\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:115:23)
     at runMicrotasks (<anonymous>)
     at processTicksAndRejections (internal/process/task_queues.js:95:5)
     at async FrameManager.navigateFrame (D:\Study\web development\testovoe\upload-jetsytle\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:90:21)
     at async Frame.goto (D:\Study\web development\testovoe\upload-jetsytle\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:416:16)
     at async Page.goto (D:\Study\web development\testovoe\upload-jetsytle\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:819:16)
-    at async exportToPDF (D:\Study\web development\testovoe\upload-jetsytle\index.js:78:3)
-    at async D:\Study\web development\testovoe\upload-jetsytle\index.js:132:5
-[2021-05-24T18:05:41.356] [ERROR] convert-log - bad file type
+    at async exportToPDF (file:///D:/Study/web%20development/testovoe/upload-jetsytle/index.js:112:3)
+    at async file:///D:/Study/web%20development/testovoe/upload-jetsytle/index.js:191:5
+[2021-05-27T13:32:31.472] [ERROR] convert-log - bad file type

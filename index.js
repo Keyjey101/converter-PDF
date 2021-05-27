@@ -1,15 +1,49 @@
 //const part
-require("dotenv").config();
-const express = require("express");
-const multer = require("multer");
-const uuid = require("uuid").v4;
-const unzipper = require("unzipper");
-const fs = require("fs-extra");
+
+import express from "express";
+import multer from "multer";
+import { v4 as uuidv4 } from 'uuid'
+import unzipper from "unzipper";
+import fs from 'fs-extra';
 const PORT = 5000;
 const LIMIT = 2 * 1000 * 1000000;
-const puppeteer = require("puppeteer");
-const path = require("path");
-const { performance } = require("perf_hooks");
+import puppeteer from "puppeteer";
+import path from "path";
+import { performance } from "perf_hooks";
+import swaggerJsdoc from 'swagger-jsdoc';
+import swaggerUi from 'swagger-ui-express';
+
+const __dirname = path.resolve(path.dirname(''))
+
+
+//swagger part
+const swaggerOptions = {
+  definition: {
+    swagger: '2.0',
+    info: {
+      version: "1.0",
+      title: "PDF convert API",
+      description: "PDF convert API Information",
+      contact: {
+        name: "keyjey101",
+        email: "keyejey.danilov@gmail.com"
+      },
+      servers: [`http://localhost:${PORT}`]
+    }
+  },
+ 
+  apis: ["index.js"]
+};
+
+const swaggerDocs = await swaggerJsdoc(swaggerOptions);
+
+
+
+
+
+
+
+
 //Memory usage
 
 const formatMemoryUsage = (data) =>
@@ -29,7 +63,7 @@ const memoryUsage = {
 };
 
 //Log file logic
-const log4js = require("log4js");
+import log4js from "log4js";
 
 log4js.configure({
   appenders: {
@@ -95,7 +129,7 @@ const storage = multer.diskStorage({
   },
   filename: (req, file, cb) => {
     const { originalname, mimetype } = file;
-    const fileName = `${uuid()}-${originalname}`;
+    const fileName = `${uuidv4()}-${originalname}`;
     cb(null, fileName);
   },
 });
@@ -114,9 +148,34 @@ const upload = multer({ storage, limits: { fileSize: LIMIT }, fileFilter });
 
 //APP define
 const app = express();
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
+
+
 app.use(express.static("public"));
 
-//POST ROUTE uploading zip - decompress - save - export pdf - save - redirect - download pdf
+
+
+
+/**
+ * @swagger
+ * /upload:
+ *  post:
+ *    description: Upload a .zip file with index.html in it
+ *    consumes:
+ *      - multipart/form-data
+ *    parameters:
+ *      - in: formData
+ *        type: file
+ *        name: file 
+ *        description: The file to upload.
+ *    responses:
+ *      '200':
+ *        description: A successful redirect to downloading page
+ *      '415':
+ *        description: error with JSON message
+ * 
+ */
+
 
 app.post("/upload", upload.single("file"), async (req, res) => {
   try {
@@ -180,6 +239,23 @@ app.use((err, req, res, next) => {
     return;
   }
 });
+
+/**
+ * @swagger
+ * /convert/:file:
+ *  get:
+ *    description: download page
+ *    responses:
+ *      '200':
+ *        description: file is downloading
+ *       
+ */
+
+
+
+
+
+
 //download file
 app.get("/convert/:file", async (req, res) => {
   try {
